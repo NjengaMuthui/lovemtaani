@@ -3,5 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: false },
   modules: ["@nuxt/fonts"],
-  css: ["@/assets/base.css"]
+  css: ["@/assets/base.css"],
+  ssr: false,
+  nitro: {
+    preset: "static"
+  }
 });
