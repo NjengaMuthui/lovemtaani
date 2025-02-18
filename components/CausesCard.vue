@@ -6,7 +6,7 @@
     <div class="card-content">
       <h3>{{ props.cause.title }}</h3>
       <p>{{ props.cause.description }}</p>
-      <a href="#" class="btn btn-nm">
+      <a href="/donate" class="btn btn-nm">
         <div class="hover"></div>
         <span>Donate</span>
       </a>
@@ -29,6 +29,9 @@ const props = defineProps({
   width: 95%;
   margin: 10px auto;
   background-color: var(--color-background-alt);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card-image {
   width: 100%;

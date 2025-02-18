@@ -12,16 +12,24 @@
     <div class="details-container">
       <h2 class="red-line">About Us</h2>
       <p>
-        Love Mtaani is a non-profit organization that is dedicated to
-        transforming the lives of the less fortunate in the society. We are
-        committed to providing food, shelter, and education to the less
-        fortunate in the society. We believe that everyone deserves a chance to
-        live a better life and that is why we are here to help. We are dedicated
-        to providing the best services to the less fortunate in the society. We
-        believe that everyone deserves a chance to live a better life and that
-        is why we are here to help.
+        Love Mtaani charity foundation is a local non-profit, non-governmental
+        and non-sectarian organization based in Ruiru Kenya. Driven by the
+        desire to change lives of the less privileged in the community e.g.
+        needy children, street families, women empowerment, education, health
+        and lively hood and we aim to create a world where everyone feels
+        cherished and loved.
       </p>
-      <a href="#" class="btn btn-nm">
+      <p>
+        Love Mtaani was born out of a deep-seated desire to nurture and uplift
+        our community. Established in 2018 and formally registered in 2023 as a
+        community-based organization (CBO), we are proudly rooted in Ruiru,
+        Kiambu County. Despite our base, our reach extends far and wide,
+        touching the lives of marginalized communities across various counties
+        in Kenya, including Kiambu, Nakuru, Nairobi, Machakos, Murang’a,
+        Kirinyaga, and Embu.
+      </p>
+
+      <a href="/aboutus" class="btn btn-nm">
         <div class="hover"></div>
         <span>Learn More</span>
       </a>

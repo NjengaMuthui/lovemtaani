@@ -38,19 +38,17 @@
       <div class="contact-card">
         <IconsPhone class="icon" />
         <h2>Phone</h2>
-        <p>1234 Street Name, City Name, Country Name</p>
-        <p class="highlight">Phone: +254-700-111-111</p>
+        <p class="highlight">Phone: +254-724-919-912</p>
+        <p class="highlight">Phone: +254-742-802-003</p>
       </div>
       <div class="contact-card">
         <IconsMail class="icon" />
         <h2>EMail</h2>
-        <p>1234 Street Name, City Name, Country Name</p>
         <p class="highlight">Mail: lovemtaani@gmail.com</p>
       </div>
       <div class="contact-card">
         <IconsLocation class="icon" />
         <h2>Location</h2>
-        <p>1234 Street Name, City Name, Country Name</p>
         <p class="highlight">Location: Ruiru</p>
       </div>
     </div>

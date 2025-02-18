@@ -3,3 +3,7 @@ export interface Cause {
   description: string;
   image: string;
 }
+export interface Payment {
+  accountNumber: string;
+  amount: number;
+}

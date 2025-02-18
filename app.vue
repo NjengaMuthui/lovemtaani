@@ -17,7 +17,7 @@ onUnmounted(() => {
 
 <template>
   <div class="main-container">
-    <div @click="showMenu = false"></div>
+    <div @click="showMenu = false" :class="{ overlay_show: showMenu }"></div>
     <div
       id="mobile-menu"
       :class="{ show_menu: showMenu, hide_menu: !showMenu }"
@@ -38,7 +38,7 @@ onUnmounted(() => {
           <img src="~/assets/love.png" alt="Love Mtaani Logo" />
         </a>
       </div>
-      <nav class="desktop-main-menu" :class="{ overlay_show: showMenu }">
+      <nav class="desktop-main-menu">
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/aboutus">About Us</a></li>

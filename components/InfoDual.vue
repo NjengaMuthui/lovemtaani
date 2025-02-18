@@ -7,7 +7,7 @@
       <IconsQuotes class="info-quotes" />
       <article class="info">
         <div class="info-title">{{ props.title }}</div>
-        <p class="info-p">{{ props.info }}</p>
+        <p class="info-p paragraph">{{ props.info }}</p>
         <IconsQuotes class="end" />
       </article>
     </div>

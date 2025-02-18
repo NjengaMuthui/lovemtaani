@@ -4,5 +4,6 @@
     <AboutUsHome />
     <OurCause />
     <MvvHome />
+    <FluxComp />
   </div>
 </template>

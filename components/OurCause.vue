@@ -3,8 +3,9 @@
     <div class="top">
       <div class="red-line mt">Our Causes</div>
       <p class="intro">
-        Love Mtaani is a non profit organisation that strives to eliminate
-        hunger by implementing the Mid Day Meal Programme
+        Love Mtaani is a non-profit organization that involves itself in various
+        causes to help the less privileged in the community. We aim to create a
+        world where everyone feels cherished and loved.
       </p>
     </div>
 
@@ -20,22 +21,22 @@ import feed from "~/assets/feed.jpg";
 import helptomothers from "~/assets/helptomothers.jpg";
 const Causes = ref([
   {
-    title: "Mid Day Meal Programme",
+    title: "LISHA JAMII INITIATIVE",
     description:
-      "The Mid Day Meal Programme is a school meal programme in India designed to improve the nutritional status of school-age children nationwide.",
+      "We visit and carry out food distribution to marginalized communities remotely located allover Kenya. Its food drive initiative program for the community is a coordinated effort to collect and distribute food donations to those in need within the community",
     image: feed
   },
   {
-    title: "Clean Water for Schools",
+    title: "GIRLS AND BOYS EMPOWERMENT",
     description:
-      "Food for Education is a non-profit organization that provides free school meals to children in Kenya.",
-    image: clean
+      "Girls and boys empowerment refers to the process of building confidence, self – esteem and agency in young boys and girls regardless of their gender it involves.",
+    image: helptomothers
   },
   {
-    title: "Help to Mothers",
+    title: "PAD FOR GIRLS (SANITARY TOWELS)",
     description:
-      "Food for Education is a non-profit organization that provides free school meals to children in Kenya.",
-    image: helptomothers
+      "Research was carried out and it showed increased. School dropouts among girls in rural areas due to lack proper of sanitary/ lack of menstrual products.",
+    image: clean
   }
 ]);
 </script>
