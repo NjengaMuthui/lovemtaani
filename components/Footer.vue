@@ -60,7 +60,7 @@ import { ref } from "vue";
 const socialMediaLinks = ref([
   {
     name: "Facebook",
-    url: "https://facebook.com",
+    url: "https://facebook.com/lovemtaanifoundationke",
     icon: "https://cdn-icons-png.flaticon.com/512/124/124010.png"
   },
   {

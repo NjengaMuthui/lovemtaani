@@ -131,6 +131,9 @@ const transitions = shallowReactive([Book, Zip]);
 </script>
 
 <style scoped>
+.flux-page {
+  padding-bottom: 30px;
+}
 @media (min-width: 768px) {
   .flux-page {
     width: 90%;

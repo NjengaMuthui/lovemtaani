@@ -30,6 +30,7 @@ onUnmounted(() => {
         <li><a href="/events">Events</a></li>
         <li><a href="contactus">Contact Us</a></li>
         <li><a href="/shop">Shop</a></li>
+        <li><a href="/donate">Donate</a></li>
       </ul>
     </div>
     <header class="main-header" :class="{ white_bg: isScrolled }">
@@ -38,16 +39,22 @@ onUnmounted(() => {
           <img src="~/assets/love.png" alt="Love Mtaani Logo" />
         </a>
       </div>
-      <nav class="desktop-main-menu">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/aboutus">About Us</a></li>
-          <li><a href="/programs">Our Programs</a></li>
-          <li><a href="/events">Events</a></li>
-          <li><a href="/contactus">Contact Us</a></li>
-          <li><a href="/shop">Shop</a></li>
-        </ul>
-      </nav>
+      <div class="flex-nav">
+        <nav class="desktop-main-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/aboutus">About Us</a></li>
+            <li><a href="/programs">Our Programs</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/contactus">Contact Us</a></li>
+            <li><a href="/shop">Shop</a></li>
+          </ul>
+        </nav>
+        <a href="/donate" class="special-btn">
+          <div class="hover"></div>
+          <span>Donate</span>
+        </a>
+      </div>
     </header>
 
     <!-- Hamburger Menu -->
@@ -71,6 +78,21 @@ onUnmounted(() => {
   </div>
 </template>
 <style>
+.special-btn {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.special-btn:hover {
+  background: var(--color-text-inverse);
+}
+.flex-nav {
+  display: flex;
+  align-items: center;
+}
 .main-container {
   position: relative;
 }

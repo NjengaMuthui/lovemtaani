@@ -1,27 +1,35 @@
 <template>
   <div>
     <TopContainer :image="ProgramsImage" alt="Programs" title="Programs" />
-    <InfoDual :image="feed2" :info="fac" title="FOOD AND CLOTHS DISTRIBUTION" />
+    <InfoDual :image="edu" :info="fac" title="FOOD AND CLOTHS DISTRIBUTION" />
     <InfoDual
       :image="feed2"
       :info="lisha"
       title="Lisha Jamii Program"
       :is-reversed="true"
     />
-    <InfoDual :image="feed2" :info="gab" title="GIRLS AND BOYS EMPOWERMENT" />
     <InfoDual
-      :image="feed2"
+      :image="abouthome"
+      :info="gab"
+      title="GIRLS AND BOYS EMPOWERMENT"
+    />
+    <InfoDual
+      :image="gal5"
       :info="pad"
       title="PAD FOR GIRLS (SANITARY TOWELS)"
       :is-reversed="true"
     />
-    <InfoDual :image="feed2" :info="boyEmpower" title="BOYS EMPOWERMENT" />
+    <InfoDual :image="gal15" :info="boyEmpower" title="BOYS EMPOWERMENT" />
   </div>
 </template>
 
 <script setup lang="ts">
 import ProgramsImage from "~/assets/programs.jpg";
 import feed2 from "~/assets/feed2.jpg";
+import abouthome from "~/assets/abouthome.jpg";
+import edu from "~/assets/edu.jpg";
+import gal5 from "~/assets/gal5.jpg";
+import gal15 from "~/assets/gal15.jpg";
 
 const fac = ref(
   "Through our seasonal events child malnutrition and lack of cloths is a major problem among the " +

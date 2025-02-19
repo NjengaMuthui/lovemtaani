@@ -12,7 +12,7 @@
     <div class="section-inner">
       <h4>A Helping Hand For A Hoping heart</h4>
       <h2>LOVE MTAANI</h2>
-      <a href="#" class="btn">
+      <a href="/donate" class="btn">
         <div class="hover"></div>
         <span>Donate</span>
       </a>
