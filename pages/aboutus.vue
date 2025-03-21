@@ -13,13 +13,8 @@
       title="Our Story"
       :isReversed="true"
     />
-    <InfoDual :image="AboutC" :info="mission" title="Our Mission" />
-    <InfoDual
-      :image="AboutD"
-      :info="whoWeAre"
-      title="Who we Are"
-      :isReversed="true"
-    />
+    <!--<InfoDual :image="AboutC" :info="mission" title="Our Mission" /> -->
+    <InfoDual :image="AboutD" :info="whoWeAre" title="Who we Are" />
     <section class="hero">
       <img src="~/assets/change.jpg" alt="Charity" class="hero-image" />
       <div class="hero-overlay">
@@ -29,15 +24,16 @@
     <div class="people">
       <h2>Meet Our Team</h2>
       <div class="people-cards">
-        <Person name="John Doe" title="C.E.O" :image="Rooney" />
-        <Person name="Arnolt Doe" title="C.O.O" :image="Rooney" />
-        <Person name="James Doe" title="C.F.O" :image="Rooney" />
+        <Person name="Ronny Adongo" title="C.E.O" :image="Rooney" />
+        <Person name="Mary Ng'ang'a" title="Secretary" :image="Mary" />
+        <Person name="Jacinter Wangari" title="Treasurer" :image="Jacinta" />
       </div>
-      <div class="people-cards">
+      <!-- <div class="people-cards">
         <Person name="John Doe" title="Volunteer" :image="Rooney" />
         <Person name="Arnolt Doe" title="Volunteer" :image="Rooney" />
         <Person name="James Doe" title="Volunteer" :image="Rooney" />
       </div>
+      -->
     </div>
   </div>
 </template>
@@ -46,24 +42,28 @@
 import AboutUsHome from "~/assets/aboutus.jpg";
 import AboutA from "~/assets/about_a.jpg";
 import AboutB from "~/assets/about_b.jpg";
-import AboutC from "~/assets/about_c.jpg";
+//import AboutC from "~/assets/about_c.jpg";
 import AboutD from "~/assets/about_d.jpg";
 import Rooney from "~/assets/rooney.jpg";
+import Jacinta from "~/assets/jacinta.jpg";
+import Mary from "~/assets/mary.jpg";
 const about = ref(
   "Love Mtaani charity foundation is a local non-profit, non-governmental and non-sectarian " +
     "organization based in Ruiru Kenya. Driven by the desire to change lives of the less privileged in " +
     "the community e.g. needy children, street families, women empowerment, education, health and " +
-    "lively hood and we aim to create a world where everyone feels cherished and loved.. "
+    "lively hood and we aim to create a world where everyone feels cherished and loved. " +
+    "The foundation has a dream of being able to provide vocational training skills to vulnerable " +
+    "teenage mothers, street families, widows and women in general. We aim to start a micro finance " +
+    "program to help empower them financially and assisting elderly people and orphaned kids with " +
+    "sufficient food and door-to-door medical assistance."
 );
 const story = ref(
   "Love Mtaani was born out of a deep-seated desire to nurture and uplift our community. Established " +
     "in 2018 and formally registered in 2023 as a community-based organization (CBO), we are proudly " +
     "rooted in Ruiru, Kiambu County. Despite our base, our reach extends far and wide, touching the lives " +
     "of marginalized communities across various counties in Kenya, including Kiambu, Nakuru, Nairobi, " +
-    "Machakos, Murang’a, Kirinyaga, and Embu."
-);
-const mission = ref(
-  "The heart of Love Mtaani beats with the collective compassion of local youths who came " +
+    "Machakos, Murang’a, Kirinyaga, and Embu. " +
+    "The heart of Love Mtaani beats with the collective compassion of local youths who came " +
     "together with a shared vision: to ensure every person enjoys a decent and dignified life. Our " +
     "mission is simple yet profound – to touch lives, bring about positive change, and empower the " +
     "next generation. " +
@@ -72,6 +72,7 @@ const mission = ref(
     "helping hand and foster a caring, supportive community. Together, we are making a tangible " +
     "difference, one life at a time."
 );
+
 const whoWeAre = ref(
   "We do plan seasonal events to visit and feed vulnerable and orphaned kids, Street families, " +
     "women and widows in our society. We have been able to make a greater impact in fighting " +

@@ -31,11 +31,7 @@ const values = ref({
   title: "VALUES",
   content:
     "Integrity, humility, equality, loyalty, passion, Touching lives and we are partners in giving hope, " +
-    "love and kindness. " +
-    "The foundation has a dream of being able to provide vocational training skills to vulnerable " +
-    "teenage mothers, street families, widows and women in general. We aim to start a micro finance " +
-    "program to help empower them financially and assisting elderly people and orphaned kids with " +
-    "sufficient food and door-to-door medical assistance."
+    "love and kindness. "
 });
 </script>
 

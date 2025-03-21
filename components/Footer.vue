@@ -19,8 +19,8 @@
         <IconsFacebook class="social-icon" />
       </a>
       <a
-        :key="socialMediaLinks[0].name"
-        :href="socialMediaLinks[0].url"
+        :key="socialMediaLinks[1].name"
+        :href="socialMediaLinks[1].url"
         target="_blank"
         rel="noopener noreferrer"
         class="social-link"
@@ -28,8 +28,8 @@
         <IconsX class="social-icon" />
       </a>
       <a
-        :key="socialMediaLinks[0].name"
-        :href="socialMediaLinks[0].url"
+        :key="socialMediaLinks[2].name"
+        :href="socialMediaLinks[2].url"
         target="_blank"
         rel="noopener noreferrer"
         class="social-link"
@@ -37,8 +37,8 @@
         <IconsInstagram class="social-icon" />
       </a>
       <a
-        :key="socialMediaLinks[0].name"
-        :href="socialMediaLinks[0].url"
+        :key="socialMediaLinks[3].name"
+        :href="socialMediaLinks[3].url"
         target="_blank"
         rel="noopener noreferrer"
         class="social-link"
@@ -60,23 +60,19 @@ import { ref } from "vue";
 const socialMediaLinks = ref([
   {
     name: "Facebook",
-    url: "https://facebook.com/lovemtaanifoundationke",
-    icon: "https://cdn-icons-png.flaticon.com/512/124/124010.png"
+    url: "https://facebook.com/lovemtaanifoundationke"
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com",
-    icon: "https://cdn-icons-png.flaticon.com/512/124/124021.png"
+    name: "X",
+    url: "https://X.com"
   },
   {
     name: "Instagram",
-    url: "https://instagram.com",
-    icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png"
+    url: "https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=sajufbn"
   },
   {
-    name: "LinkedIn",
-    url: "https://linkedin.com",
-    icon: "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    name: "Tiktok",
+    url: "https://www.tiktok.com/@love_mtaani_foundation?_t=ZM-8urvhi7APJd&_r=1"
   }
 ]);
 

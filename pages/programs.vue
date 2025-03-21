@@ -46,11 +46,11 @@ const gab = ref(
     "discrimination."
 );
 const pad = ref(
-  "Research was carried out and it showed increased. School dropouts among girls in rural areas " +
-    "due to lack proper of sanitary/ lack of menstrual products./n" +
-    "As a result girls and women are often. Expected to refrain from normal activates such as going to " +
-    "school cooking bathing e.t.c these, restrictions and negative attitudes towards menstratution " +
-    "affect girls self-esteem./n" +
+  "Research was carried out and it showed increased school dropouts among girls in rural areas " +
+    "due to lack proper of sanitary/ lack of menstrual products." +
+    "As a result girls and women are often expected to refrain from normal activates such as going to " +
+    "school cooking bathing e.t.c these restrictions and negative attitudes towards menstratution " +
+    "affect girls self-esteem." +
     "By improving menstrual health and tackling period shame we have improved girls attendance " +
     "and performance at school. " +
     "We have break down taboos and misconceptions around menstruation in order to raise girl self " +
@@ -58,19 +58,14 @@ const pad = ref(
     "hygiene risks discomfort shame or less of dignity. "
 );
 const boyEmpower = ref(
-  "Boys empowerment is an important aspect of promoting gender equality and creating more " +
+  "Boys empowerment is an important aspect in promoting gender equality and creating more " +
     "inclusive and equitable society because we are not leaving anyone behind we help our boys to " +
-    "develop self esteem. Communication skills leadership abilities and critical thinking by " +
-    "empowering boys we help them break from harmful society. We also aid them with boxers."
+    "develop self esteem, communication skills leadership abilities and critical thinking by " +
+    "empowering boys we help them break from harmful society. We also aid them with boxers and shoes."
 );
 
 const lisha = ref(
-  "We visit and carry out food distribution to marginalized communities remotely located allover " +
-    "Kenya. /n" +
-    "Its food drive initiative program for the community is a coordinated effort to collect and " +
-    "distribute food donations to those in need within the community e.g. The disable people the " +
-    "Elderly (wazee) streets families etc. /n" +
-    "The collected food is then distributed to individuals and families facing food insecurity"
+  "Our lisha jamii initiative is a coordinated effort to collect and distribute food donations to those in need within the community, such as people with disabilities, the elderly (wazee), and homeless families. As part of this effort, we visit and distribute food to marginalized communities in remote areas across Kenya. The collected food is then distributed to individuals and families experiencing food insecurity, ensuring they receive the support they need."
 );
 </script>
 
