@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ["@nuxt/fonts", "@nuxt/image"],
   css: ["@/assets/base.css", "vue-flux/style.css"],
-  ssr: false,
+  ssr: true,
   nitro: {
     preset: "static"
   }

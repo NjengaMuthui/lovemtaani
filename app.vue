@@ -35,7 +35,7 @@ onUnmounted(() => {
     </div>
     <header class="main-header" :class="{ white_bg: isScrolled }">
       <div class="logo">
-        <a href="#">
+        <a href="/">
           <img src="~/assets/love.png" alt="Love Mtaani Logo" />
         </a>
       </div>
@@ -129,7 +129,7 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,7 +154,7 @@ ul {
   position: fixed;
   top: 40px;
   right: 20px;
-  z-index: 15;
+  z-index: 1005;
   cursor: pointer;
   width: 20px;
   height: 20px;
@@ -225,7 +225,7 @@ ul {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 13;
+  z-index: 1003;
 }
 
 /* Menu item bottom border */
@@ -260,7 +260,7 @@ ul {
   width: 350px;
   height: 100%;
   background: #000;
-  z-index: 14;
+  z-index: 1004;
   display: flex;
   align-items: center;
   justify-content: center;
